@@ -5,7 +5,8 @@
 
 /* banenr design */
 .header {
-  background-image: url(../images/donation0.jpg) , linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7));
+  background-image: url(../images/donation0.jpg),
+    linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
@@ -14,7 +15,6 @@
   justify-content: center;
   align-items: center;
 }
-
 
 .banner {
   margin: 0 200px;
@@ -30,7 +30,6 @@
 .head_discription {
   color: whitesmoke;
   margin-bottom: 20px;
-
 }
 
 .primary_btn {
@@ -42,64 +41,160 @@
   font-size: 20px;
   border-radius: 5px;
 }
-.primary_btn:hover{
-    background-color: rgb(231, 109, 72);
+.primary_btn:hover {
+  background-color: rgb(231, 109, 72);
 }
 
 /* main */
 main {
-  max-width: 1140px;
+  max-width: 1340px;
   margin: 0 auto;
 }
 /* Donate Amount Section */
-.donate_today_Container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 50vh;
-    text-align: center;
+.donate_today_Container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  text-align: center;
+  margin: 30px 0;
 }
-.donate_title{
-      color: black;
+.donate_title {
+  color: black;
   font-weight: 900;
   font-size: 40px;
   margin-bottom: 20px;
 }
-.donate_disc{
-      color: #757575;
+.donate_disc {
+  color: #757575;
+  font-size: 20px;
   margin-bottom: 20px;
-
 }
-.donate_amount_item{
-    display: flex;
-    justify-content: space-around;
-    gap: 20px;
+.donate_amount_item {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
 }
-.donate_amount{
-    display: flex;
-    background-color: rgb(248, 246, 246);
-    font-size: 25px;
-    font-weight: 900;
-    width: 120px;
-    height: 120px;
-    border-radius: 5px;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
+.donate_amount {
+  display: flex;
+  background-color: rgb(248, 246, 246);
+  font-size: 25px;
+  font-weight: 900;
+  width: 120px;
+  height: 120px;
+  border-radius: 5px;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
 }
-.donate_amount:hover{
-    background-color: rgb(253, 232, 232);
-    color: red;
-    border: 1px solid red;
-    
+.donate_amount:hover {
+  background-color: rgb(253, 232, 232);
+  color: red;
+  border: 1px solid red;
 }
 
-.input_other_amount{
-    margin-top: 40px;
-    margin-bottom: 20px;
-    text-align: center;
-    width: 100%;
-    padding: 10px;
-    border: none;
-    border-bottom: 1px solid black;
+.input_other_amount {
+  margin-top: 40px;
+  margin-bottom: 20px;
+  text-align: center;
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-bottom: 1px solid black;
+}
+
+/* our donate Plan design */
+
+.Total_plan {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+.our_donate_plan {
+  margin-top: ;
+}
+.plan_title_details {
+  text-align: center;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.plan_title {
+  color: black;
+  font-weight: 800;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+.plan_discription {
+  color: #757575;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+.plan_img {
+  height: 80px;
+  width: 80px;
+  margin-top: 50px;
+  margin-bottom: 40px;
+}
+.Plan_donate_item1 {
+  background-color: rgb(232, 248, 253);
+  padding: 20px;
+  height: 400px;
+  width: 1250px;
+  border-radius: 10px;
+}
+
+.Plan_donate_item2 {
+  background-color: rgb(253, 232, 232);
+  padding: 20px;
+  height: 400px;
+  width: 1250px;
+  border-radius: 10px;
+}
+
+.Plan_donate_item3 {
+  background-color: rgb(253, 249, 232);
+  padding: 20px;
+  height: 400px;
+  width: 1250px;
+  border-radius: 10px;
+}
+
+/* contribute section design */
+.Contribute_container {
+  margin-top: 130px;
+  margin-bottom: 30px;
+}
+.contrubete_top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.contru_title {
+  font-size: 60px;
+  font-weight: 900;
+  margin-bottom: 20px;
+}
+.contru_discription {
+  margin-bottom: 20px;
+}
+.contibute_laft {
+  width: 50%;
+}
+.contribute_right {
+  width: 50%;
+}
+.contribute_image {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.contrubete_bottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
 }
