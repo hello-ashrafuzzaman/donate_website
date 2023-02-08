@@ -110,14 +110,20 @@ main {
   justify-content: space-around;
   gap: 20px;
 }
-
+.donate_disc{
+  margin-bottom: 60px;
+}
 .our_donate_plan {
-  margin-top: ;
+  margin-top: 130px;
+  margin-bottom: 100px;
+}
+.donate_title{
+  font-weight: 900;
+  font-size: 50px;
+  margin-bottom: 20px;
 }
 .plan_title_details {
   text-align: center;
-  font-size: 20px;
-  margin-bottom: 20px;
 }
 
 .plan_title {
@@ -263,4 +269,24 @@ main {
 }
 .email_submit_btn:hover{
   background-color: rgb(243, 102, 102);
+}
+
+footer{
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 80px;
+}
+
+footer h2{
+  font-family: 'Lobster', cursive;
+
+  color: red;
+  font-size: 60px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+footer p{
+  font-size: 22px;
 }
